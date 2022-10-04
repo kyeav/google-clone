@@ -6,7 +6,7 @@ import MicIcon from '@mui/icons-material/Mic'
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom'
 import { useStateValue } from '../components/StateProvider'
-import { actionTypes } from '../reducer'
+import { actionTypes } from '../components/reducer'
 
 function Search({ hideButtons = false }) {
     const [{}, dispatch] = useStateValue()
